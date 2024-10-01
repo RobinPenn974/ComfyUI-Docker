@@ -3,7 +3,7 @@
 # A streamlined version using PyTorch's official CUDA 12.4 image.
 ################################################################################
 
-FROM pytorch/pytorch:2.1.2-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.1.1-cuda12.1-cudnn8-runtime
 
 LABEL maintainer="robinpenn <code@robinpenn.fun>"
 
@@ -34,9 +34,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Python Packages
 
 # Upgrade pip, setuptools, and install the required Python packages
+# xformers==0.0.23 for impact-pack DepthAnythingV2
+# torch==2.1.2 torchaudio==2.1.2 for RVC
 RUN pip install --upgrade pip wheel setuptools \
     && pip install \
-        xformers==0.0.20 \
+        xformers==0.0.23 \
         torchvision==0.16.2 \
         torchaudio==2.1.2 \
         beautifulsoup4 \
@@ -89,7 +91,7 @@ RUN pip uninstall --yes onnxruntime-gpu \
 
 
 # ComfyUI-MimicMotionWrapper need tensorboard
-RUN pip install tensorboard insightface
+RUN pip install tensorboard insightface 
 
 # fairseq need pip <= 24.0 
 # ref https://github.com/facebookresearch/fairseq/issues/5518

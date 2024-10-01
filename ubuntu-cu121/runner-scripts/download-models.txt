@@ -63,3 +63,19 @@ https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensor
 https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro/resolve/main/diffusion_pytorch_model.safetensors
   dir=controlnet
   out=flux1-dev-controlnet-union-pro.safetensors
+
+
+# vitmatte (for impact pack SegmentAnything Ultra V2)
+
+https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/model.safetensors
+  dir=vitmatte
+  out=model.safetensors
+https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/config.json
+  dir=vitmatte
+  out=config.json
+https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/preprocessor_config.json
+  dir=vitmatte
+  out=preprocessor_config.json
+https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/pytorch_model.bin
+  dir=vitmatte
+  out=pytorch_model.bin
