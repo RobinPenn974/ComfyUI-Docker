@@ -88,6 +88,9 @@ RUN pip uninstall --yes onnxruntime-gpu \
     && pip list
 
 
+# ComfyUI-MimicMotionWrapper need tensorboard
+RUN pip install tensorboard
+
 # fairseq need pip <= 24.0 
 # ref https://github.com/facebookresearch/fairseq/issues/5518
 # RUN python -m pip install pip==24.0 \

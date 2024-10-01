@@ -1,0 +1,65 @@
+# Checkpoints
+
+# flux.1-schnell unet with clip and vae in one file by Comfy-Org
+https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors
+  dir=checkpoints
+  out=flux1-schnell-fp8.safetensors
+# flux.1-dev unet with clip and vae in one file by Comfy-Org
+https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors
+  dir=checkpoints
+  out=flux1-dev-fp8.safetensors
+
+# unet
+
+# flux.1-schnell-fp8-e4m3fn unet by Kijai
+# https://huggingface.co/Kijai/flux-fp8/resolve/main/flux1-schnell-fp8-e4m3fn.safetensors
+#   dir=unet
+#   out=flux1-schnell-fp8-e4m3fn.safetensors
+# flux.1-dev-fp8-e4m3fn unet by Kijai
+# https://huggingface.co/Kijai/flux-fp8/resolve/main/flux1-dev-fp8-e4m3fn.safetensors
+#   dir=unet
+#   out=flux1-dev-fp8-e4m3fn.safetensors
+
+# VAE
+
+# flux.1-dev-fp8-e4m3fn vae by Kijai
+# https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/vae/diffusion_pytorch_model.safetensors
+#   dir=vae
+#   out=flux1-vae.pth
+
+
+# Upscale
+
+
+# Embeddings
+
+
+# CLIP
+
+# t5xxl_fp8_e4m3fn clip by Comfy-Org
+# https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors
+#   dir=clip
+#   out=t5xxl_fp8_e4m3fn.safetensors
+# clip_l by Comfy-Org
+# https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors
+#   dir=clip
+#   out=clip_l.safetensors
+
+
+# unCLIP
+
+
+# ControlNet v1.1
+# More models: https://huggingface.co/lllyasviel/sd_control_collection
+
+
+# Control-LoRA
+
+# flux.1-dev-controlnet-union by InstantX (slower but more accurate)
+# https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union/resolve/main/diffusion_pytorch_model.safetensors
+#   dir=controlnet
+#   out=flux1-dev-controlnet-union.safetensors
+# flux.1-dev-controlnet-union-pro by Shakker-Labs and InstantX (faster but less accurate)
+https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro/resolve/main/diffusion_pytorch_model.safetensors
+  dir=controlnet
+  out=flux1-dev-controlnet-union-pro.safetensors
