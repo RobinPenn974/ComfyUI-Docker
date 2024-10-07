@@ -50,17 +50,19 @@ clone_or_pull https://github.com/BennyKok/comfyui-deploy.git
 # clone_or_pull https://github.com/chrisgoringe/cg-use-everywhere.git
 clone_or_pull https://github.com/cubiq/ComfyUI_essentials.git
 # clone_or_pull https://github.com/jags111/efficiency-nodes-comfyui.git
-# clone_or_pull https://github.com/kijai/ComfyUI-KJNodes.git
+clone_or_pull https://github.com/kijai/ComfyUI-KJNodes.git
 # clone_or_pull https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
 # clone_or_pull https://github.com/rgthree/rgthree-comfy.git
 # clone_or_pull https://github.com/shiimizu/ComfyUI_smZNodes.git
+clone_or_pull https://github.com/GreenLandisaLie/AuraSR-ComfyUI.git
+clone_or_pull https://github.com/kijai/ComfyUI-SUPIR.git
 
 # Control
 # clone_or_pull https://github.com/cubiq/ComfyUI_InstantID.git
 # clone_or_pull https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 clone_or_pull https://github.com/Fannovel16/comfyui_controlnet_aux.git
 # clone_or_pull https://github.com/florestefano1975/comfyui-portrait-master.git
-# clone_or_pull https://github.com/Gourieff/comfyui-reactor-node.git
+clone_or_pull https://github.com/Gourieff/comfyui-reactor-node.git
 # clone_or_pull https://github.com/huchenlei/ComfyUI-layerdiffuse.git
 # clone_or_pull https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
 clone_or_pull https://github.com/ltdrdata/ComfyUI-Impact-Pack.git
@@ -68,16 +70,18 @@ clone_or_pull https://github.com/ltdrdata/ComfyUI-Impact-Pack.git
 # clone_or_pull https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git
 # clone_or_pull https://github.com/storyicon/comfyui_segment_anything.git
 # clone_or_pull https://github.com/twri/sdxl_prompt_styler.git
+clone_or_pull https://github.com/kijai/ComfyUI-LivePortraitKJ.git
 
 # Video
 clone_or_pull https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git
 # clone_or_pull https://github.com/FizzleDorf/ComfyUI_FizzNodes.git
-# clone_or_pull https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
+clone_or_pull https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
 clone_or_pull https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
 # clone_or_pull https://github.com/melMass/comfy_mtb.git
 # clone_or_pull https://github.com/MrForExample/ComfyUI-AnimateAnyone-Evolved.git
 # clone_or_pull https://github.com/smthemex/ComfyUI_EchoMimic.git
 clone_or_pull https://github.com/kijai/ComfyUI-MimicMotionWrapper.git
+clone_or_pull https://github.com/kijai/ComfyUI-ControlNeXt-SVD.git
 
 # Audio
 clone_or_pull https://github.com/SayanoAI/Comfy-RVC.git

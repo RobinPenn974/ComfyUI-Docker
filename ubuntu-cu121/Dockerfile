@@ -83,15 +83,17 @@ COPY builder-scripts/pak7.txt  /builder-scripts/pak7.txt
 
 RUN pip install -r /builder-scripts/pak7.txt
 
-RUN pip uninstall --yes onnxruntime-gpu \
-    && pip --no-cache-dir install onnxruntime-gpu \
-        --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/ \
-    && pip install mediapipe \
-    && pip list
+# for ReActor
+RUN pip uninstall --yes onnxruntime onnxruntime-gpu \
+    && pip --no-cache-dir install onnxruntime-gpu==1.15.1
+#         --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/ \
+#     && pip install mediapipe \
+#     && pip list
 
 
 # ComfyUI-MimicMotionWrapper need tensorboard
-RUN pip install tensorboard insightface 
+# pykalman for LivePortraitKJ
+RUN pip install tensorboard insightface  pykalman
 
 # fairseq need pip <= 24.0 
 # ref https://github.com/facebookresearch/fairseq/issues/5518

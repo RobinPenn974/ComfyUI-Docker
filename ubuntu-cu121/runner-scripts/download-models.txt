@@ -79,3 +79,44 @@ https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/preproc
 https://huggingface.co/hustvl/vitmatte-small-composition-1k/resolve/main/pytorch_model.bin
   dir=vitmatte
   out=pytorch_model.bin
+
+
+# Aura-SR(Sometimes V1 is better than V2)
+https://huggingface.co/fal/AuraSR/resolve/main/model.safetensors
+  dir=Aura-SR
+  out=AuraSR.safetensors
+# https://huggingface.co/fal/AuraSR-v2/resolve/main/model.safetensors
+#   dir=Aura-SR
+#   out=AuraSR-V2.safetensors
+https://huggingface.co/fal/AuraSR/resolve/main/config.json
+  dir=Aura-SR
+  out=config.json
+
+# insightface
+# For ComfyUI-Reactor-Node
+https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx
+  dir=insightface
+  out=inswapper_128.onnx
+
+# liveportrait
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/appearance_feature_extractor.safetensors
+  dir=liveportrait
+  out=appearance_feature_extractor.safetensors
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/landmark.onnx
+  dir=liveportrait
+  out=landmark.onnx
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/landmark_model.pth
+  dir=liveportrait
+  out=landmark_model.pth
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/motion_extractor.safetensors
+  dir=liveportrait
+  out=motion_extractor.safetensors
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/spade_generator.safetensors
+  dir=liveportrait
+  out=spade_generator.safetensors
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/stitching_retargeting_module.safetensors
+  dir=liveportrait
+  out=stitching_retargeting_module.safetensors
+https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/warping_module.safetensors
+  dir=liveportrait
+  out=warping_module.safetensors
