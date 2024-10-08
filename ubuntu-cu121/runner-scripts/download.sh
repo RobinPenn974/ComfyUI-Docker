@@ -82,6 +82,7 @@ clone_or_pull https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
 # clone_or_pull https://github.com/smthemex/ComfyUI_EchoMimic.git
 clone_or_pull https://github.com/kijai/ComfyUI-MimicMotionWrapper.git
 clone_or_pull https://github.com/kijai/ComfyUI-ControlNeXt-SVD.git
+clone_or_pull https://github.com/kijai/ComfyUI-VEnhancer.git
 
 # Audio
 clone_or_pull https://github.com/SayanoAI/Comfy-RVC.git

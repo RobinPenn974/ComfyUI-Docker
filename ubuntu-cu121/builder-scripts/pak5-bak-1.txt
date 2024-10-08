@@ -13,6 +13,7 @@ cachetools
 clip-interrogator
 color-matcher
 colour-science
+contourpy==1.2.1
 deepdiff
 deep-translator
 diffusers
@@ -23,6 +24,7 @@ fastapi
 ffmpeg-python
 ffmpy
 filelock
+floret==0.10.4
 ftfy
 fvcore
 GitPython
@@ -37,8 +39,10 @@ inference-cli
 inference-gpu[yolo-world]
 jaxtyping
 kornia
+librosa
 librosa~=0.10.2
 loguru
+manifold3d==2.4.5
 matplotlib
 matrix-client==0.4.0
 mediapipe
@@ -47,9 +51,13 @@ nerfacc
 ninja
 numba
 numexpr
+numpy
+numpy<2
 numpy<2.0
 omegaconf
-onnxruntime-gpu
+onnx==1.16.2
+onnx2torch==1.5.14
+onnxruntime-gpu==1.15.1
 open-clip-torch
 opencv-contrib-python
 opencv-python
@@ -90,6 +98,7 @@ safetensors
 scikit-image
 scikit-learn
 scipy
+seaborn==0.13.2
 segment-anything
 sentencepiece
 simpleeval
@@ -101,7 +110,7 @@ svglib
 textacy
 timm
 tokenizers
-torch==2.1.1
+torch
 torchaudio
 torchcrepe
 torchmetrics
@@ -110,13 +119,13 @@ torchsde
 torchtyping
 torchvision
 tqdm
-transformers
+transformers==4.44.2
 transparent-background
-trimesh[easy]
+trimesh[easy]==4.4.8
 typer
 typer-config
 typing-extensions
-ultralytics!=8.2.87
+ultralytics==8.3.4
 wandb
 wget
 xatlas
