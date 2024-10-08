@@ -73,11 +73,11 @@ RUN pip install --upgrade pip wheel setuptools \
 COPY builder-scripts/generate-pak5.sh  /builder-scripts/generate-pak5.sh
 COPY builder-scripts/pak3.txt  /builder-scripts/pak3.txt
 
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /builder-scripts/pak3.txt
+RUN pip install -r /builder-scripts/pak3.txt
 
 COPY builder-scripts/pak5.txt  /builder-scripts/pak5.txt
 
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /builder-scripts/pak5.txt
+RUN pip install -r /builder-scripts/pak5.txt
 
 COPY builder-scripts/pak7.txt  /builder-scripts/pak7.txt
 
